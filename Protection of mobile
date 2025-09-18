@@ -1,0 +1,5 @@
+adb shell pm list packages -3 > installed_apps.txt
+package:com.whatsapp
+package:com.instagram.android
+package:com.random.suspiciousapp
+adb shell pm uninstall --user 0 package.name
